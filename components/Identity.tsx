@@ -22,12 +22,13 @@ export default function Identity() {
 
             <div className="id-entry current reveal d1">
               <div className="id-entry-banner id-banner-insignia">
+                <img src="/banners/insignia.webp" alt="" className="id-banner-img" />
                 <div className="id-banner-orb" />
                 <div className="id-banner-orb2" />
                 <span className="id-banner-tag">Full-time · Active</span>
               </div>
               <div className="id-entry-top">
-                <div className="id-logo-box">KMA<br />AI</div>
+                <div className="id-logo-box"><img src="/logos/kma.png" alt="KMA AI" /></div>
                 <div className="id-entry-meta">
                   <span className="id-entry-tag">Machine Learning Engineer</span>
                   <div className="id-entry-title">PT Kreasi Media Asia (Insignia)</div>
@@ -41,12 +42,13 @@ export default function Identity() {
 
             <div className="id-entry reveal d2">
               <div className="id-entry-banner id-banner-tue">
+                <img src="/banners/tue.webp" alt="" className="id-banner-img" />
                 <div className="id-banner-orb" />
                 <div className="id-banner-orb2" />
                 <span className="id-banner-tag">Graduate · Netherlands</span>
               </div>
               <div className="id-entry-top">
-                <div className="id-logo-box">TU/<br />e</div>
+                <div className="id-logo-box"><img src="/logos/tue.png" alt="TU/e" /></div>
                 <div className="id-entry-meta">
                   <span className="id-entry-tag">M.Sc · Data Science in Engineering</span>
                   <div className="id-entry-title">Eindhoven University of Technology</div>
@@ -58,7 +60,7 @@ export default function Identity() {
 
             <div className="id-entry reveal d3">
               <div className="id-entry-top">
-                <div className="id-logo-box">ITS</div>
+                <div className="id-logo-box"><img src="/logos/its.png" alt="ITS" /></div>
                 <div className="id-entry-meta">
                   <span className="id-entry-tag">S.Kom · Informatics Engineering</span>
                   <div className="id-entry-title">Institut Teknologi Sepuluh Nopember</div>
@@ -84,7 +86,7 @@ export default function Identity() {
 
             <div className="id-entry reveal d2">
               <div className="id-entry-top">
-                <div className="id-logo-box">Tel<br />kom</div>
+                <div className="id-logo-box"><img src="/logos/telkom.png" alt="Telkom" /></div>
                 <div className="id-entry-meta">
                   <span className="id-entry-tag">Data Scientist</span>
                   <div className="id-entry-title">PT Telkom Indonesia</div>
@@ -96,7 +98,7 @@ export default function Identity() {
 
             <div className="id-entry reveal d3">
               <div className="id-entry-top">
-                <div className="id-logo-box">Game<br />loft</div>
+                <div className="id-logo-box"><img src="/logos/gameloft.png" alt="Gameloft" /></div>
                 <div className="id-entry-meta">
                   <span className="id-entry-tag">C++ Programmer</span>
                   <div className="id-entry-title">PT Gameloft Indonesia</div>
@@ -108,7 +110,7 @@ export default function Identity() {
 
             <div className="id-entry reveal d4">
               <div className="id-entry-top">
-                <div className="id-logo-box">Met<br />ro</div>
+                <div className="id-logo-box"><img src="/logos/metrodata.png" alt="Metrodata" /></div>
                 <div className="id-entry-meta">
                   <span className="id-entry-tag">Back-End Developer · Internship</span>
                   <div className="id-entry-title">PT Metrodata Electronics</div>
@@ -120,13 +122,14 @@ export default function Identity() {
 
             <div className="id-group-label" style={{ marginTop: '6px' }}>Part-time &amp; Freelance</div>
 
-            <div className="id-freelance-box reveal d5">
-              <div className="id-freelance-icon">＋</div>
-              <div className="id-freelance-inner">
-                <div className="id-freelance-label">Open section</div>
-                <div className="id-freelance-title">Projects &amp; collaborations</div>
-                <div className="id-freelance-desc">
-                  Part-time roles, freelance work, and independent projects to be added here.
+            <div className="id-entry reveal d5">
+              <div className="id-entry-top">
+                <div className="id-logo-box"><img src="/logos/gogreen.png" alt="Go Green Office" /></div>
+                <div className="id-entry-meta">
+                  <span className="id-entry-tag">Public Relations Manager · Part-time</span>
+                  <div className="id-entry-title">Go Green Office TU/e</div>
+                  <div className="id-entry-org">Student sustainability org · PR during master's studies</div>
+                  <div className="id-entry-period">September 2021 — December 2022</div>
                 </div>
               </div>
             </div>
