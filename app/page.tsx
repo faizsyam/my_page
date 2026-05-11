@@ -1,6 +1,7 @@
 import ClientEffects from '@/components/ClientEffects'
 import Nav from '@/components/Nav'
 import Hero from '@/components/Hero'
+import NavCards from '@/components/NavCards'
 import Identity from '@/components/Identity'
 import LogosStrip from '@/components/LogosStrip'
 import Work from '@/components/Work'
@@ -15,6 +16,7 @@ export default function Home() {
       <ClientEffects />
       <Nav />
       <Hero />
+      <NavCards />
       <Identity />
       <LogosStrip />
       <Work />
